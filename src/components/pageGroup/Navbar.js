@@ -14,6 +14,7 @@ function Navbar() {
                             <Link to="/home">Home</Link>
                             <Link to="/menu">Menu</Link>
                             <Link to="/order">Order</Link>
+                            <Link to="/order">Payment</Link>
                         </li>
                     </ul>
                 </div>
@@ -25,6 +26,7 @@ function Navbar() {
                         <Link to="/home">Home</Link>
                         <Link to="/menu">Menu</Link>
                         <Link to="/order">Order</Link>
+                        <Link to="/order">Payment</Link>
                     </li>
                 </ul>
             </div>
