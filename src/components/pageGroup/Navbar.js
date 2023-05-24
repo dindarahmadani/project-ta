@@ -12,9 +12,8 @@ function Navbar() {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li>
                             <Link to="/home">Home</Link>
-                            <Link to="/menu">Menu</Link>
-                            <Link to="/order">Order</Link>
-                            <Link to="/order">Payment</Link>
+                            <Link to="/aboutus">About Us</Link>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -24,14 +23,13 @@ function Navbar() {
                 <ul className="menu menu-horizontal px-1">
                     <li>
                         <Link to="/home">Home</Link>
-                        <Link to="/menu">Menu</Link>
-                        <Link to="/order">Order</Link>
-                        <Link to="/order">Payment</Link>
+                        <Link to="/aboutus">About Us</Link>
+                        <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
             <div className="navbar-end">
-            <button className="btn btn-warning btn-md">Login</button>
+                <button className="btn btn-warning btn-md">Login</button>
             </div>
         </div>
     )
