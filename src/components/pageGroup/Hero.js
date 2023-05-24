@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
     return (
         <div className="hero min-h-screen" style={{ backgroundImage: `url("/img/hero.jpg")` }}>
-            <div className="hero-overlay bg-opacity-20"></div>
+            <div className="hero-overlay bg-opacity-0"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
                     <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
