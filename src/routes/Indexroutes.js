@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from '../pages/dashboard/Home';
-import IndexProduct from '../pages/dashboard/user/product/IndexProduct';
+import ProductIndex from '../pages/user/ProductIndex';
 
 function Indexroutes() {
   return (
@@ -9,7 +9,8 @@ function Indexroutes() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/userproduct' element={<IndexProduct />} />
+          <Route path='/userproduct' element={<ProductIndex/>} />
+
         </Routes>
       </BrowserRouter>
     </>
